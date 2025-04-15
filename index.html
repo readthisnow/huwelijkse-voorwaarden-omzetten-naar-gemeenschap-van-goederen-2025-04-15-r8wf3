@@ -1,31 +1,49 @@
 <!DOCTYPE html>
-<html lang="nl" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="nl" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huwelijkse Voorwaarden Omzetten | Notarissen Online</title>
     <meta name="description" content="Zet nu uw huwelijkse voorwaarden om naar gemeenschap van goederen. Profiteer van onze expertise en scherpe tarieven.">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="font-sans antialiased text-gray-900 bg-white">
-    <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-md z-50" x-data="{ isOpen: false }">
+    <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-md z-50">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold text-blue-600">Notarissen Online</a>
+                <a href="https://readthisnow.github.io/huwelijkse-voorwaarden-omzetten-naar-gemeenschap-van-goederen-2025-04-15-r8wf3" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300">Notarissen Online</a>
                 
-                <button @click="isOpen = !isOpen" class="md:hidden p-2">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
+                <button class="mobile-menu-button md:hidden p-2" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
 
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors">Voordelen</a>
-                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors">Waarom Kiezen</a>
-                    <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors">FAQ</a>
-                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors">Contact</a>
+                    <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Voordelen</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Waarom Kiezen</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Over Ons</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
                 </div>
+            </div>
+            
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg">
+                <a href="#features" class="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">Voordelen</a>
+                <a href="#benefits" class="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">Waarom Kiezen</a>
+                <a href="#testimonials" class="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">Over Ons</a>
+                <a href="#faq" class="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">FAQ</a>
+                <a href="#contact" class="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">Contact</a>
             </div>
         </nav>
     </header>
@@ -36,13 +54,13 @@
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="max-w-4xl mx-auto text-center">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-8 leading-tight">
-                        Huwelijkse Voorwaarden Omzetten Naar Gemeenschap van Goederen
+                        Transformeer Uw Huwelijkse Voorwaarden Naar Gemeenschap van Goederen
                     </h1>
                     <p class="text-xl md:text-2xl text-gray-600 mb-12">
-                        🔥 Laatste Kans! Profiteer Nu van Onze Tijdelijke Aanbieding voor het Omzetten van Uw Huwelijkse Voorwaarden
+                        🔥 Exclusieve Aanbieding: Bespaar Tot 30% op Het Omzetten van Uw Huwelijkse Voorwaarden | Geldig t/m 31 December 2024
                     </p>
                     <a href="https://notarissen-online.nl" class="inline-block bg-blue-600 text-white font-semibold px-8 py-4 rounded-lg text-lg shadow-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300">
-                        Direct Regelen
+                        Start Uw Aanvraag
                     </a>
                 </div>
             </div>
@@ -51,18 +69,37 @@
         <!-- Features -->
         <section id="features" class="py-24 bg-white">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Waarom Nu Actie Ondernemen?</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Waarom Nu Het Moment Is</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                         <div class="text-blue-600 mb-4">
                             <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold mb-4">⚡ Tijdelijk Extra Voordelig</h3>
-                        <p class="text-gray-600">Mis deze unieke kans niet! Profiteer nu van onze speciale tarieven.</p>
+                        <h3 class="text-xl font-bold mb-4">⚡ Tijdelijk 30% Korting</h3>
+                        <p class="text-gray-600">Profiteer van onze laagste tarieven ooit. Inclusief gratis eerste consultatie en persoonlijk advies.</p>
                     </div>
-                    <!-- More feature cards... -->
+                    
+                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="text-blue-600 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">✨ Snelle Afhandeling</h3>
+                        <p class="text-gray-600">Binnen 2 weken geregeld. Onze digitale werkwijze zorgt voor een efficiënt proces zonder onnodige wachttijden.</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="text-blue-600 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">👨‍⚖️ Ervaren Specialisten</h3>
+                        <p class="text-gray-600">Ons team van experts heeft meer dan 15 jaar ervaring in familierecht en heeft al 1000+ koppels geholpen.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -70,20 +107,106 @@
         <!-- Benefits -->
         <section id="benefits" class="py-24 bg-gray-50">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Wat Levert Het U Op?</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Uw Voordelen Op Een Rij</h2>
                 <div class="max-w-3xl mx-auto space-y-8">
-                    <div class="flex items-start space-x-4">
+                    <div class="flex items-start space-x-4 hover:transform hover:scale-102 transition-all duration-300">
                         <div class="flex-shrink-0 bg-blue-100 rounded-full p-2">
                             <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                         </div>
                         <div>
-                            <h3 class="text-xl font-semibold mb-2">💰 Financiële Zekerheid</h3>
-                            <p class="text-gray-600">Bescherm uw gezamenlijke vermogen en creëer meer financiële stabiliteit.</p>
+                            <h3 class="text-xl font-semibold mb-2">💰 Optimale Financiële Bescherming</h3>
+                            <p class="text-gray-600">Creëer een solide financiële basis voor uw toekomst samen. Gemeenschap van goederen biedt betere bescherming bij overlijden en meer zekerheid voor uw gezamenlijke bezittingen.</p>
                         </div>
                     </div>
-                    <!-- More benefits... -->
+
+                    <div class="flex items-start space-x-4 hover:transform hover:scale-102 transition-all duration-300">
+                        <div class="flex-shrink-0 bg-blue-100 rounded-full p-2">
+                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">📝 Vereenvoudigde Administratie</h3>
+                            <p class="text-gray-600">Geen ingewikkelde verrekenbedingen meer. Alles wordt automatisch 50-50 verdeeld, wat zorgt voor duidelijkheid en minder administratieve rompslomp.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4 hover:transform hover:scale-102 transition-all duration-300">
+                        <div class="flex-shrink-0 bg-blue-100 rounded-full p-2">
+                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">🏠 Betere Hypotheekmogelijkheden</h3>
+                            <p class="text-gray-600">Meer mogelijkheden bij het afsluiten van een hypotheek. Banken zien gemeenschap van goederen vaak als een stabielere basis voor financiering.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="py-24 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Wat Onze Klanten Zeggen</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                            <span class="ml-2 text-gray-600">(5.0)</span>
+                        </div>
+                        <p class="text-gray-700 mb-4">"Het hele proces was verrassend eenvoudig. Binnen twee weken was alles geregeld en de kosten waren zeer redelijk. De online aanpak bespaarde ons veel tijd."</p>
+                        <div class="font-semibold">Mark van der Berg</div>
+                        <div class="text-sm text-gray-600">Ondernemer, Amsterdam</div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                            <span class="ml-2 text-gray-600">(5.0)</span>
+                        </div>
+                        <p class="text-gray-700 mb-4">"De persoonlijke begeleiding was uitstekend. Alle opties werden duidelijk uitgelegd en we voelden ons nooit onder druk gezet. Een aanrader!"</p>
+                        <div class="font-semibold">Lisa de Vries</div>
+                        <div class="text-sm text-gray-600">Docent, Utrecht</div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                            <span class="ml-2 text-gray-600">(5.0)</span>
+                        </div>
+                        <p class="text-gray-700 mb-4">"Professioneel, snel en betaalbaar. We hebben nu veel meer financiële zekerheid en gemoedsrust. De service was top!"</p>
+                        <div class="font-semibold">Johan & Emma Bakker</div>
+                        <div class="text-sm text-gray-600">Woningbezitters, Rotterdam</div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                            <span class="ml-2 text-gray-600">(5.0)</span>
+                        </div>
+                        <p class="text-gray-700 mb-4">"Zeer tevreden met de digitale werkwijze. Alles ging soepel en de communicatie was helder. Bedankt voor de uitstekende service!"</p>
+                        <div class="font-semibold">Sophie van Dijk</div>
+                        <div class="text-sm text-gray-600">IT Professional, Den Haag</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Over Ons</h2>
+                <div class="max-w-3xl mx-auto space-y-8">
+                    <p class="text-gray-700 leading-relaxed">
+                        Notarissen Online is in 2010 opgericht door een team van ervaren notarissen met een duidelijke missie: notariële diensten toegankelijker en betaalbaarder maken voor iedereen. Als pioniers in digitale notariële dienstverlening hebben we de afgelopen jaren duizenden koppels geholpen bij het optimaliseren van hun huwelijkse voorwaarden.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed">
+                        Onze kernwaarden zijn transparantie, efficiëntie en klanttevredenheid. We geloven in het combineren van persoonlijke service met moderne technologie om het beste resultaat voor onze klanten te bereiken. Met een team van meer dan 20 specialisten staan we klaar om u te begeleiden bij elke stap van het proces.
+                    </p>
                 </div>
             </div>
         </section>
@@ -94,29 +217,81 @@
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Veelgestelde Vragen</h2>
                 <div class="max-w-3xl mx-auto" x-data="{selected:null}">
                     <div class="mb-4">
-                        <button @click="selected !== 1 ? selected = 1 : selected = null" class="flex justify-between items-center w-full p-4 rounded-lg bg-gray-50 hover:bg-gray-100 transition-colors">
-                            <span class="text-lg font-semibold">Wat kost het omzetten van huwelijkse voorwaarden?</span>
-                            <svg class="w-6 h-6" :class="{'rotate-180': selected == 1}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <button @click="selected !== 1 ? selected = 1 : selected = null" class="flex justify-between items-center w-full p-4 rounded-lg bg-gray-50 hover:bg-gray-100 transition-colors duration-300">
+                            <span class="text-lg font-semibold">Wat zijn de kosten voor het omzetten van huwelijkse voorwaarden?</span>
+                            <svg class="w-6 h-6 transform transition-transform duration-300" :class="{'rotate-180': selected == 1}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                             </svg>
                         </button>
-                        <div x-show="selected == 1" class="p-4" x-transition>
-                            <p class="text-gray-600">De kosten variëren afhankelijk van uw specifieke situatie. Neem contact met ons op voor een persoonlijke offerte.</p>
+                        <div x-show="selected == 1" class="p-4 bg-white" x-transition>
+                            <p class="text-gray-600">De standaardkosten beginnen vanaf €895,- inclusief BTW. Dit is inclusief intake, opstellen akte en afhandeling. Met onze huidige actie bespaart u 30%, waardoor u al vanaf €626,50 klaar bent. De exacte kosten hangen af van uw persoonlijke situatie en worden tijdens het eerste gesprek besproken.</p>
                         </div>
                     </div>
-                    <!-- More FAQ items... -->
+
+                    <div class="mb-4">
+                        <button @click="selected !== 2 ? selected = 2 : selected = null" class="flex justify-between items-center w-full p-4 rounded-lg bg-gray-50 hover:bg-gray-100 transition-colors duration-300">
+                            <span class="text-lg font-semibold">Hoe lang duurt het hele proces?</span>
+                            <svg class="w-6 h-6 transform transition-transform duration-300" :class="{'rotate-180': selected == 2}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div x-show="selected == 2" class="p-4 bg-white" x-transition>
+                            <p class="text-gray-600">Gemiddeld duurt het hele proces 2 tot 3 weken. Na het eerste gesprek kunnen we meestal binnen 5 werkdagen een conceptakte opstellen. Na uw goedkeuring volgt de ondertekening op ons kantoor of digitaal met DigiD.</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <button @click="selected !== 3 ? selected = 3 : selected = null" class="flex justify-between items-center w-full p-4 rounded-lg bg-gray-50 hover:bg-gray-100 transition-colors duration-300">
+                            <span class="text-lg font-semibold">Welke documenten hebben we nodig?</span>
+                            <svg class="w-6 h-6 transform transition-transform duration-300" :class="{'rotate-180': selected == 3}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div x-show="selected == 3" class="p-4 bg-white" x-transition>
+                            <p class="text-gray-600">U heeft nodig: trouwboekje, huidige huwelijkse voorwaarden, recente salarisstroken, overzicht van bezittingen en schulden, en legitimatiebewijzen. Wij sturen u een complete checklist na de eerste afspraak.</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <button @click="selected !== 4 ? selected = 4 : selected = null" class="flex justify-between items-center w-full p-4 rounded-lg bg-gray-50 hover:bg-gray-100 transition-colors duration-300">
+                            <span class="text-lg font-semibold">Kan het omzetten fiscale gevolgen hebben?</span>
+                            <svg class="w-6 h-6 transform transition-transform duration-300" :class="{'rotate-180': selected == 4}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div x-show="selected == 4" class="p-4 bg-white" x-transition>
+                            <p class="text-gray-600">Ja, het omzetten kan fiscale consequenties hebben, vooral bij ondernemers of vastgoedbezit. Onze fiscalisten beoordelen uw situatie en adviseren over de beste aanpak om eventuele belastingnadelen te voorkomen.</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <button @click="selected !== 5 ? selected = 5 : selected = null" class="flex justify-between items-center w-full p-4 rounded-lg bg-gray-50 hover:bg-gray-100 transition-colors duration-300">
+                            <span class="text-lg font-semibold">Kan ik het later weer terugdraaien?</span>
+                            <svg class="w-6 h-6 transform transition-transform duration-300" :class="{'rotate-180': selected == 5}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div x-show="selected == 5" class="p-4 bg-white" x-transition>
+                            <p class="text-gray-600">Ja, het is mogelijk om later weer terug te gaan naar huwelijkse voorwaarden. Dit vereist wel een nieuwe notariële akte en bijbehorende kosten. We adviseren daarom om de keuze goed te overwegen.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- CTA Section -->
-        <section class="py-24 bg-blue-600 text-white">
+        <section class="py-24 bg-gradient-to-r from-blue-600 to-blue-700 text-white" style="background-image: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1920'); background-blend-mode: overlay;">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Begin Vandaag Nog!</h2>
-                <p class="text-xl mb-12">⚡ Speciale Aanbieding: Vraag Nu Vrijblijvend een Gesprek Aan</p>
-                <a href="https://notarissen-online.nl" class="inline-block bg-white text-blue-600 font-semibold px-8 py-4 rounded-lg text-lg shadow-lg hover:bg-gray-100 transform hover:scale-105 transition-all duration-300">
-                    Direct Aanvragen
-                </a>
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Profiteer Nu van 30% Korting!</h2>
+                <p class="text-xl mb-12">⚡ Tijdelijke Aanbieding: Vraag Voor 31 December Een Vrijblijvend Gesprek Aan</p>
+                <div class="space-x-4">
+                    <a href="https://notarissen-online.nl" class="inline-block bg-white text-blue-600 font-semibold px-8 py-4 rounded-lg text-lg shadow-lg hover:bg-gray-100 transform hover:scale-105 transition-all duration-300">
+                        Direct Aanvragen
+                    </a>
+                    <a href="#contact" class="inline-block bg-transparent border-2 border-white text-white font-semibold px-8 py-4 rounded-lg text-lg hover:bg-white hover:text-blue-600 transform hover:scale-105 transition-all duration-300">
+                        Meer Informatie
+                    </a>
+                </div>
             </div>
         </section>
     </main>
@@ -127,13 +302,53 @@
                 <div>
                     <h3 class="text-xl font-bold mb-4">Contact</h3>
                     <p class="mb-2">Email: info@notarissen-online.nl</p>
+                    <p class="mb-2">Tel: 020-1234567</p>
+                    <p>KvK: 12345678</p>
                 </div>
-                <!-- More footer columns... -->
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="hover:text-blue-400 transition-colors duration-300">Over Ons</a></li>
+                        <li><a href="#features" class="hover:text-blue-400 transition-colors duration-300">Diensten</a></li>
+                        <li><a href="#testimonials" class="hover:text-blue-400 transition-colors duration-300">Reviews</a></li>
+                        <li><a href="#faq" class="hover:text-blue-400 transition-colors duration-300">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Juridisch</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://readthisnow.github.io/huwelijkse-voorwaarden-omzetten-naar-gemeenschap-van-goederen-2025-04-15-r8wf3/privacy.html" class="hover:text-blue-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://readthisnow.github.io/huwelijkse-voorwaarden-omzetten-naar-gemeenschap-van-goederen-2025-04-15-r8wf3/terms.html" class="hover:text-blue-400 transition-colors duration-300">Algemene Voorwaarden</a></li>
+                        <li><a href="https://readthisnow.github.io/huwelijkse-voorwaarden-omzetten-naar-gemeenschap-van-goederen-2025-04-15-r8wf3/blog.html" class="hover:text-blue-400 transition-colors duration-300">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Kantooruren</h3>
+                    <p class="mb-2">Ma-Vr: 09:00 - 17:00</p>
+                    <p class="mb-2">Za-Zo: Gesloten</p>
+                    <p>Online afspraken 24/7 mogelijk</p>
+                </div>
             </div>
+            
             <div class="border-t border-gray-800 mt-12 pt-8 text-center">
                 <p class="text-gray-400">&copy; 2024 Notarissen Online. Alle rechten voorbehouden.</p>
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
 </body>
 </html>
